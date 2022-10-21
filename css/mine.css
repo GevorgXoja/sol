@@ -1,0 +1,505 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+/*p {*/
+/*    margin-top: 0px;*/
+/*    margin-bottom: 0px;*/
+/*}*/
+
+li {
+    list-style-type: none; /* Убираем маркеры */
+}
+ul {
+    margin-left: 0; /* Отступ слева в браузере IE и Opera */
+    padding-left: 0; /* Отступ слева в браузере Firefox, Safari, Chrome */
+}
+a {
+    text-decoration: none;
+    color: #f2f2f2;
+}
+.catalog-tovara-imges{
+    display: flex;
+    justify-content: space-around;
+}
+.button {
+    display: block;
+    margin-top: 20px;
+    background-color: #37a58c;
+    color: #bfe2da;
+    border: 10px solid transparent;
+    border-radius: 0.25rem;
+    text-align: center;
+}
+
+.mine-contacts {
+    display: flex;
+    justify-content: space-between;
+    padding: 14px 0;
+    align-items: center;
+}
+
+.main-header--top {
+    background-color: #d13d73;
+    color: #ffffff;
+    height: 60px;
+    font-size: .9375rem;
+
+}
+
+.button:hover{
+    opacity: 0.9;
+}
+
+#mine-header {
+    position: relative;
+    font-size: .875rem;
+}
+
+.maine-header--top {
+    background-color: #d13d73;
+    height: 60px;
+    font-size: .9375rem;
+}
+
+.list-promishlenia-first{
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-size: 32px;
+    padding-bottom: 10px;
+    text-align: center;
+    letter-spacing: 1px;
+    line-height: 35px;
+}
+
+.various-fields{
+    padding-top: 30px;;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.various-fields img{
+    padding: 5px;
+}
+.application-in-various-fields {
+    background: #ffffff;
+    padding-top: 36px;
+    padding-bottom: 36px;
+}
+.catalog{
+    padding-top: 16px;
+    background: #F5F5F5;
+}
+
+.catalog-title{
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.catalog-carousel{
+    padding-top: 10px;
+    padding-bottom: 44px;
+}
+.wrapper {
+    max-width: 620px;
+    padding: 0 20px 40px 20px;
+    margin: auto;
+}
+
+.catalog-tovara{
+    padding: 24px 9px 24px;
+}
+.jcarousel {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+.jcarousel-wrapper {
+    margin: 20px auto;
+    position: relative;
+    border: 10px solid #fff;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 0 2px #999;
+    -moz-box-shadow: 0 0 2px #999;
+    box-shadow: 0 0 2px #999;
+}
+
+.list-promishlenia-sec{
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-size: 20px;
+    text-align: center;
+}
+
+.product-icon{
+    padding: 24px 83px 48px ;
+}
+/*.container {*/
+/*    width: 100%;*/
+/*    max-width: 1140px;*/
+/*    padding-left: 15px;*/
+/*    padding-right: 15px;*/
+/*    margin-right: auto;*/
+/*    margin-left: auto;*/
+/*}*/
+
+#nav {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.mine-footer {
+    background-color: #231f20;
+    height: 227px;
+    padding: 2.5rem 0 1.875rem;
+    margin-top: 580px;
+    color: #504c4d;
+}
+
+.col {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.about-company-itmes {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 62px;
+
+}
+
+.col-lg-1{
+    display: flex;
+    color: #504c4d;
+    flex-direction: column;
+}
+.col-lg-2 {
+}
+.footer-col-1-spans {
+    color: #deddde;
+}
+
+.urid-content{
+    margin-top: 22px;
+    line-height: 20px;
+}
+
+.about-company{
+    background:#F5F5F5;
+}
+.advantages-item--text{
+    font-size: 15px;
+    max-width: 204px;
+    padding-top: 19px;
+    padding-bottom: 28px;
+
+}
+.about-company .container .list-promishlenia-first{
+    padding-top: 50px;
+}
+
+.catalog-Reviews{
+    padding-top: 48px;
+    display: flex;
+    justify-content: space-between;
+}
+.catalog-members {
+    background: #E8F0F2;
+    border-radius: 3%;
+    padding: 17px;
+}
+.catalog-Reviews .catalog-members .comment{
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    max-width: 473px;
+    padding-top: 10px;
+}
+
+.working-location {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.members-name {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+}
+.slick-slide img {
+    width: 30% ;
+}
+
+.present-title {
+    margin-top: 50px;
+    color: rgba(255, 255, 255, 1);
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.present-condition{
+    color: #fff;
+    margin-top: 16px;
+    font-size: 17px;
+}
+
+
+.present-card {
+    /*https://blog.prototypr.io/css-only-multi-color-backgrounds-4d96a5569a20*/
+/*linear-gradient(90deg, rgba(19, 99, 223, 1) 49%, rgba(0, 0, 0, 0) 65%), url(../imges/Rectangle801.svg);*/
+    background: linear-gradient(90deg, rgba(19, 99, 223, 1) 49%, rgba(0, 0, 0, 0) 65%), url(../imges/Rectangle801.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.present-catalog {
+    margin-top: 14px;
+    background-color: rgba(6, 40, 61, 0.05);
+    border: 10px solid transparent;
+}
+
+.present-list {
+    padding-top: 36px;
+    display: flex;
+}
+
+.present-stuff {
+    padding-right: 80px;
+    display: -webkit-box;
+}
+
+.present-icon {
+    padding-right: 12px;
+}
+
+.present-stuff-text {
+    color: #fff;
+    font-size: 14px;
+    padding-left: 12px;
+}
+
+.order-title {
+    padding-top: 24px;
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.location {
+    display: flex;
+    padding-top: 14px;
+}
+
+.location-about {
+    padding-left: 15px;
+    display: flex;
+    flex-direction: column;
+}
+.location-region {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.work-shift {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+}
+.order-borders {
+    display: flex;
+    justify-content: space-between;
+}
+
+.order-list p{
+    color: rgba(6, 40, 61, 0.5);
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    margin-right: 155px;
+    margin-left: 37px;
+    margin-top: 24px;
+    line-height: 21px;
+}
+
+.order-list {
+    height: 369px;
+    width: 384px;
+    background-color: #fff;
+    border: 1px solid rgba(232, 232, 232, 1);
+    box-shadow: 0px 0px 4px rgb(0 0 0 / 15%);
+    border-radius: 4px;
+}
+
+/*.order-list p {*/
+/*    margin-right: 155px;*/
+/*    margin-left: 37px;*/
+/*    margin-top: 24px;*/
+/*    line-height: 19px;*/
+/*}*/
+
+.order-list span {
+    color: black;
+    width: 600px;
+    font-size: 18px;
+}
+
+.order-list-about {
+    max-height: 335px;
+    width: 792px;
+    overflow-y: auto;
+    background-color: #fff;
+    border: 1px solid rgba(232, 232, 232, 1);
+    box-shadow: 0px 0px 4px rgb(0 0 0 / 15%);
+    border-radius: 4px;
+}
+
+.stuff-list {
+    border-bottom: 1px solid #DFF6FF;
+    margin: 20px;
+    display: flex;
+    padding-top: 14px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.stuff-list p {
+    color: rgba(6, 40, 61, 0.5);
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.stuff-list s{
+    color: rgba(235, 71, 71, 1);
+}
+
+.order-list-sum {
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+@media screen and (max-width: 768px) {
+    .list-promishlenia-sec{
+        display: none;
+    }
+}
+@media screen and (max-width: 768px) {
+    .various-fields{
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .slick-arrow{
+        display: none !important;
+    }
+}
+@media screen and (max-width: 768px) {
+    .about-company-itmes{
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    }
+    .advantages-item--icon{
+        text-align: center;
+    }
+    .advantages-item--text{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .catalog-members {
+        background: #E8F0F2;
+        border-radius: 3%;
+        padding: 7px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .catalog-Reviews .catalog-members .comment {
+        max-width: 284px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .catalog-Reviews .catalog-members .comment {
+        max-width: 284px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .about-company-itmes {
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: 62px;
+        justify-content: space-evenly;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .present-card {
+        background: linear-gradient(90deg, rgba(19, 99, 223, 1) 30%, rgba(0, 0, 0, 0) 80%), url(../imges/Rectangle801.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: right 0, -52px;
+    }
+    .present-catalog,.present-list {
+        display: none;
+    }
+    .present-title {
+        line-height: 36px;
+    }
+}
+
+@media screen and (max-width: 1399px) {
+    .order-borders {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .order-list-about {
+        margin-top: 5px;
+    }
+}
